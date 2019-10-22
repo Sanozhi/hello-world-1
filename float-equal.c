@@ -5,28 +5,27 @@
 #include <stdio.h>
 #include <math.h>
 
+
 int main()
 
 {
-
-    float m = 1.78,a;
-
-    float x = 1.779999, y = 2;
-
-    float z = m / y, z1 = x / y;
+    float m,x,c;
     
-	if (fabs(z-z1)<1e-6) 
+    printf("Enter a number m:");
+    scanf("%f",&m);
+    printf("Enter another number x:");
+    scanf("%f",&x);
+    
+    
+    if (fabs(x-m)<1e-5)
     {
-	
-
-        z = (m + x) / y;
-
-    }
-
-    printf("Z is %f\n", z);
-
-    printf("Z1 is %f\n", z1);
-
-    return 0;
+    	printf("result: m=x\n");
+	}
+	else
+	{
+		printf("result: m!=x\n");
+	}
+    
+	return 0;
 
 }
