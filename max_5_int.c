@@ -1,3 +1,40 @@
-//å°æ˜Žæœ‰ 5 å¼ æ•°å­—å¡ç‰‡ï¼Œä¸Šé¢åˆ†åˆ«ä¸ºæ•°å­— 1ï¼Œ 2ï¼Œ 3ï¼Œ 6ï¼Œ 9ã€‚å°æ˜Žæƒ³ç”¨è¿™ 5 å¼ æ•°å­—å¡ç‰‡ç»„æˆä¸€ä¸ªæœ€å¤§çš„ 5 ä½
-//æ•°ï¼Œè¿™ä¸ªäº”ä½æ•°æ˜¯_______ã€‚
-//ç¼–ç¨‹ï¼šä»»æ„è¾“å…¥5ä¸ªæ•°å­—ï¼Œå°†å®ƒä»¬ç»„åˆä¸ºæœ€å¤§çš„5ä½æ•°è¾“å‡ºã€‚
+//Ð¡Ã÷ÓÐ 5 ÕÅÊý×Ö¿¨Æ¬£¬ÉÏÃæ·Ö±ðÎªÊý×Ö 1£¬ 2£¬ 3£¬ 6£¬ 9¡£Ð¡Ã÷ÏëÓÃÕâ 5 ÕÅÊý×Ö¿¨Æ¬×é³ÉÒ»¸ö×î´óµÄ 5 Î»
+
+//Êý£¬Õâ¸öÎåÎ»ÊýÊÇ_______¡£
+
+//±à³Ì£ºÈÎÒâÊäÈë5¸öÊý×Ö£¬½«ËüÃÇ×éºÏÎª×î´óµÄ5Î»ÊýÊä³ö¡£
+//½»»»ÅÅÐò
+
+#include <stdio.h>
+
+int main() {
+
+  int x[5],i,a;
+  printf("Enter the five numbers:");
+  scanf("%d %d %d %d %d", &x[0], &x[1], &x[2],&x[3],&x[4]);
+    
+    for (a=4;a>i;a--){
+	
+	  for(i=0;i<a;i++) {
+
+       if( x[i] > x[i+1]) {
+
+  	    int temp = x[i];
+
+  	    x[i] = x[i+1];
+
+  	    x[i+1] = temp;
+
+      }
+    }
+    i=0;
+}
+	
+	
+    printf("The maximum of five-digits number is %d%d%d%d%d", x[4], x[3], x[2],x[1],x[0]);
+
+  
+
+  return 0;
+
+}
