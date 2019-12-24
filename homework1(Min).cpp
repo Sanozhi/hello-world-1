@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int m,n,i;
+	int m,n,j;
 	printf("Enter the value of the first number:");
 	scanf("%d",&m);
 	printf("Enter the value of the second number:");
 	scanf("%d",&n);
 	i=m;
-	while(i%m!=0 || i%n!=0) 
+	while(j%m!=0 || j%n!=0) 
 	{
-		i=++i;
+		j=++j;
 	}
-		printf("Min=%d\n",i);
+		printf("Min=%d\n",j);
 	
     return 0;
  } 
