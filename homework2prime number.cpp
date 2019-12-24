@@ -14,11 +14,11 @@ int main()
 	}  
 
     if(n==1)
-       {printf("这两个数互质\n");
+       {printf("浜掕川\n");
 	   } 
     	
 	else
-	    {printf("这两个数不互质\n");
+	    {printf("涓嶄簰璐╘n");
 		} 
 		
 	return 0;
